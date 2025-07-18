@@ -1,0 +1,55 @@
+*{
+    /* border: 0.1rem solid tomato; */
+}
+
+:root{
+    --primaryColor: rgb(29, 93, 154);
+    --secondaryColor: rgb(241, 177, 16);
+    --tertiarary: #ffffff;
+    --darkColor: #000;
+    --lightColor: #3196ca;
+    --ffprimary: "Poppins", sans-serif;
+}
+
+body{
+    font-family: var(--bs-font-sans-serif);
+}
+
+h2{
+    color: var(--primaryColor);
+}
+
+p{
+    border-left: 4px solid var(--lightColor);
+    background-color: var(--tertiarary);
+}
+
+i{
+    color: var(--secondaryColor);
+}
+.customer{
+    background-image: url(./assets/images/box_bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* padding: 1rem 0rem 5rem 0rem; */
+    /* height:28rem; */
+    /* width: 50%; */
+}
+
+.carousel-inner img{
+    height: 5rem;
+    width: auto;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: var(--darkColor);
+    margin: 5px;
+  }
+  
+  .carousel-indicators .active {
+    background-color: var(--lightColor);
+  }
